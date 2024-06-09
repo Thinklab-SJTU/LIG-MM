@@ -1,0 +1,2 @@
+struct tree *;
+struct tree *x;

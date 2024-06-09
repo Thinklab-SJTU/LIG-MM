@@ -1,0 +1,4 @@
+struct list *;
+struct list *x;
+struct list **t;
+struct list **px;

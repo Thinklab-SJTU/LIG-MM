@@ -1,0 +1,4 @@
+struct LOS_DL_LIST *;
+struct LOS_DL_LIST *l;
+struct LOS_DL_LIST *p;
+struct LOS_DL_LIST *head;

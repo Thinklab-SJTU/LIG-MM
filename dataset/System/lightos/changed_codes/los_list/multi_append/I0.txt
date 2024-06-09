@@ -1,0 +1,1 @@
+x == t && t->pstPrev == 0 && t->pstNext == u && dlistrep(y,0) * dlistrep(u,t) * dlistrep(z,0)

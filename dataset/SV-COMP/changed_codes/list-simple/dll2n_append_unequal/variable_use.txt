@@ -1,0 +1,4 @@
+struct DLL *;
+struct DLL *p;
+struct DLL *l;
+int data;

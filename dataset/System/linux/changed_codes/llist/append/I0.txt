@@ -1,0 +1,1 @@
+x != 0 && x == t && data_at(field_addr(x , next), u) * listrep(u) * listrep(y)

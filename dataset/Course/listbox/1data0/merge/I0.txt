@@ -1,0 +1,1 @@
+x != 0 && px == z && *z == x && listrep(x) * listrep(y)

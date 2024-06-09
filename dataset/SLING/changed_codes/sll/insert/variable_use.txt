@@ -1,0 +1,5 @@
+struct SNnode *;
+struct SNnode *x;
+struct SNnode *p;
+struct SNnode *new_node;
+int data;

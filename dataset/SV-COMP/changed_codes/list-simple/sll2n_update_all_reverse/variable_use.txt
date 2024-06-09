@@ -1,0 +1,6 @@
+struct SLL *;
+struct SLL *p;
+struct SLL *w;
+struct SLL *t;
+struct SLL *v;
+int data;

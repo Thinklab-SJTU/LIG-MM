@@ -1,0 +1,5 @@
+struct list *;
+struct list *x;
+struct list *y;
+struct list *z;
+struct list *t;

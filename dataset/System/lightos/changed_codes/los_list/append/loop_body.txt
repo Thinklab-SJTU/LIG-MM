@@ -1,0 +1,4 @@
+    while (u) {
+        t = u;
+        u = t -> pstNext;
+    }

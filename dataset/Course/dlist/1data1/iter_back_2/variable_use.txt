@@ -1,0 +1,4 @@
+struct dlist *;
+struct dlist *p;
+struct dlist **head;
+struct dlist **tail;

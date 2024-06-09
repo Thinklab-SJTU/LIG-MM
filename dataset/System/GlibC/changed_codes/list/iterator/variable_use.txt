@@ -1,0 +1,3 @@
+struct list_t *;
+struct list_t *l;
+struct list_t *p;

@@ -1,0 +1,8 @@
+    while (l) {
+    p = l->next;
+    free_DLL(l);
+    if (p) {
+      p->prev = 0;
+    }
+    l = p;
+  }

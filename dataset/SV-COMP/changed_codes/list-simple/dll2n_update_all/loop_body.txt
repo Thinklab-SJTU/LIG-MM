@@ -1,0 +1,6 @@
+    while (p) {
+    if (p->data != data) {
+      p -> data = data;
+    }
+    p = p->next;
+  }

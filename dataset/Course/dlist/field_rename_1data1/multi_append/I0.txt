@@ -1,0 +1,1 @@
+exists v, x == t && t->data == v && t->link1 == 0 && t->link2 == u && dlistrep(y,0) * dlistrep(u,t) * dlistrep(z,0)

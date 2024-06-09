@@ -1,0 +1,3 @@
+void ;
+struct SLL *p;
+struct SLL *l;

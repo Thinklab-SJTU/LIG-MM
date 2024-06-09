@@ -1,0 +1,20 @@
+          while (u) {
+            if (y) {
+              t -> pstNext = y;
+              y -> pstPrev = t;
+              t = y;
+              y = y -> pstNext;
+              t -> pstNext = u;
+              u -> pstPrev = t;
+              if (y) {
+                y -> pstPrev = 0;
+              }
+              t = u;
+              u = u -> pstNext;
+            }
+            else {
+              u = append(u , z);
+              t -> pstNext = u;
+              return x;   
+            }
+        }

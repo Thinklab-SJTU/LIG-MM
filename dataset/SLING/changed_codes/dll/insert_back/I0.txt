@@ -1,0 +1,1 @@
+data == data0 && p == x && dlistrep(x, 0)

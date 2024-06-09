@@ -1,0 +1,9 @@
+struct pred *reverse(struct pred *p)
+/*@ Require listrep(p)
+    Ensure  listrep(__return)
+ */;
+
+struct pred *append(struct pred * x, struct pred * y)
+/*@ Require listrep(x) * listrep(y)
+    Ensure  listrep(__return)
+ */;

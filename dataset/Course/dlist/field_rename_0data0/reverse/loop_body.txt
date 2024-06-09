@@ -1,0 +1,7 @@
+    while (v) {
+        t = v->link2;
+        v->link2 = w;
+        v->link1 = t;
+        w = v;
+        v = t;
+    }

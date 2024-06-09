@@ -1,0 +1,9 @@
+struct list *reverse(struct list *p)
+/*@ Require listrep(p)
+    Ensure  listrep(__return)
+ */;
+
+struct list *append(struct list * x, struct list * y)
+/*@ Require listrep(x) * listrep(y)
+    Ensure  listrep(__return)
+ */;

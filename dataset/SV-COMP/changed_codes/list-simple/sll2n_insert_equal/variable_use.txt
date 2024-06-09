@@ -1,0 +1,5 @@
+struct SLL *;
+struct SLL *p;
+struct SLL *l;
+struct SLL *new_node;
+int data;

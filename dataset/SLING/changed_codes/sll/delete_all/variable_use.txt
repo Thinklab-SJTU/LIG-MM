@@ -1,0 +1,3 @@
+void ;
+struct SNnode *p;
+struct SNnode *l;

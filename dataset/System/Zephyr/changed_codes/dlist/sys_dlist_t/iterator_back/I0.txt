@@ -1,0 +1,1 @@
+l == p && l != 0 && dlseg(front, 0, l_head, l) * dlistrep(l, l_head)

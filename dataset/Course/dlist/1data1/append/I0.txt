@@ -1,0 +1,1 @@
+exists v, x != 0 && x == t && data_at(field_addr(x , head), v) * data_at(field_addr(x , next), u) * data_at(field_addr(x , prev), 0) * dlistrep(u, x) * dlistrep(y, 0)

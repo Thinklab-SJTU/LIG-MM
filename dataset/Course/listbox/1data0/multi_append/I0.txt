@@ -1,0 +1,1 @@
+t == px && *t == x && x -> tail == u && listrep(y) * listrep(z) *  listrep(u)

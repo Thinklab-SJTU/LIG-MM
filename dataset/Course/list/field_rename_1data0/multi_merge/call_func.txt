@@ -1,0 +1,4 @@
+struct pred *merge(struct pred *x , struct pred *y)
+/*@ Require listrep(x) * listrep(y)
+    Ensure  listrep(__return)
+ */;

@@ -1,0 +1,5 @@
+struct pred * append(struct pred * x, struct pred * y)
+/*@ With x_prev
+	Require dlistrep(x, x_prev) * dlistrep(y,0)
+  Ensure dlistrep(__return,x_prev)
+ */;

@@ -1,0 +1,10 @@
+    while (v) {
+        t = v -> pstNext;
+        v-> pstNext = w;
+        w-> pstPrev = v; 
+        w = v;
+        v = t;
+        if (v) {
+          v -> pstPrev = 0;
+        }
+      }

@@ -1,0 +1,14 @@
+  while (y) {
+      t = y;
+      if (y->data < v) {
+          y = y->right;
+      }
+      else {
+        if (y->data > v) {
+          y = y->left;
+        }
+        else {
+          return x;
+        }
+      }
+  }

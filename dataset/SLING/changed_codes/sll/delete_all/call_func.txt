@@ -1,0 +1,13 @@
+struct SNnode* malloc_SNnode(int data)
+/*@ With data0 
+    Require data == data0 && emp
+    Ensure data_at(field_addr(__return, head), data0) * 
+           data_at(field_addr(__return, tail), 0)
+*/;
+
+void free_SNnode(struct SNnode *l)
+/*@ With v n
+    Require data_at(field_addr(l, head), v) * 
+            data_at(field_addr(l, tail), n)
+    Ensure emp
+*/;

@@ -1,0 +1,18 @@
+    while (y) {
+        t = y -> next;
+        y -> next = x -> next;
+        y -> prev = x;
+        x -> next = y;
+        if (y -> next == 0) {
+          y -> next = t;
+          return z;
+        }
+        else {
+          x = y -> next;
+          x -> prev = y;
+          y = t;
+          if (t) {
+          	t -> prev = 0;
+          }
+        }
+      }

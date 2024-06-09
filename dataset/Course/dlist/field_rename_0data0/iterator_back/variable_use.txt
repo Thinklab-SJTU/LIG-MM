@@ -1,0 +1,4 @@
+struct pred *;
+struct pred *l;
+struct pred *p;
+struct pred *head;

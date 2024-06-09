@@ -1,0 +1,5 @@
+struct SNnode *;
+struct SNnode *x;
+struct SNnode *y;
+struct SNnode *t;
+struct SNnode *p;

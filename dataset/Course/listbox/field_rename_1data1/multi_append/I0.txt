@@ -1,0 +1,1 @@
+exists v, t == px && *t == x && x -> data == v && x -> link == u && listrep(y) * listrep(z) *  listrep(u)

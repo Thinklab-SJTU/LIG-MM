@@ -1,0 +1,3 @@
+void ;
+struct DLNode *p;
+struct DLNode *l;

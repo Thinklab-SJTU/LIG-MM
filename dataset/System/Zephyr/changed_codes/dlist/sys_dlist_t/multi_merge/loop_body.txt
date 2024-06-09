@@ -1,0 +1,36 @@
+    while (u) {
+        if (y) {
+          t -> tail = y;
+          y -> head = t;
+          t = y;
+          u -> head = t;
+          y = y -> tail;
+          if (y) {
+            y -> head = 0;
+          }    
+        }
+        else {
+          u = merge(u , z);
+          t -> tail = u;
+          return x;   
+        }
+        if (z) {
+          t -> tail = z;
+          z -> head = t;
+          t = z;
+          u -> head = t;
+          z = z -> tail;
+          if (z) {
+            z -> head = 0;
+          }
+        }
+        else {
+          u = merge(u , y);
+          t -> tail = u;
+          return x;
+        }
+        t -> tail = u;
+        u -> head = t;
+        t = u;
+        u = u -> tail;
+      }

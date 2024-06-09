@@ -1,0 +1,9 @@
+    while (p) {
+        p = p->next;
+        if (p) {
+          p = p -> next;
+        }
+      	else {
+          return l;
+        }
+    }

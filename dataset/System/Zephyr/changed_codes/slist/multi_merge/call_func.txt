@@ -1,0 +1,4 @@
+struct sys_slist_t *merge(struct sys_slist_t *x , struct sys_slist_t *y)
+/*@ Require listrep(x) * listrep(y)
+    Ensure  listrep(__return)
+ */;

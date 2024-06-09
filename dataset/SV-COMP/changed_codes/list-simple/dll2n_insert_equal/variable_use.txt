@@ -1,0 +1,5 @@
+struct DLL *;
+struct DLL *p;
+struct DLL *l;
+struct DLL *new_node;
+int v;

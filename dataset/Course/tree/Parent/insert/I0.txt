@@ -1,0 +1,1 @@
+exists u __1 __2, x != 0 && y == x && t == 0 && v == v0 && y -> parent == t && y -> data == u && y->left==__1 && y->right==__2 && tree_rep(__1,y) * tree_rep(__2,y)

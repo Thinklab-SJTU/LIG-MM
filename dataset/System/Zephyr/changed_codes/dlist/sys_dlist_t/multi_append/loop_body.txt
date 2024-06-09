@@ -1,0 +1,20 @@
+          while (u) {
+            if (y) {
+              t -> tail = y;
+              y -> head = t;
+              t = y;
+              y = y -> tail;
+              t -> tail = u;
+              u -> head = t;
+              if (y) {
+                y -> head = 0;
+              }
+              t = u;
+              u = u -> tail;
+            }
+            else {
+              u = append(u , z);
+              t -> tail = u;
+              return x;   
+            }
+        }

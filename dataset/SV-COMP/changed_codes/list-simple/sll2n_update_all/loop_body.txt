@@ -1,0 +1,6 @@
+    while (p) {
+    if (p->head != data) {
+      p -> head = data;
+    }
+    p = p->tail;
+  }

@@ -1,0 +1,7 @@
+struct tree * malloc_tree(void)
+/*@ Require emp
+    Ensure __return -> left == 0 && 
+           __return -> right == 0 && 
+           __return -> parent == 0 && 
+           __return -> data == 0 && emp
+ */;

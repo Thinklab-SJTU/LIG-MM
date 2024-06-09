@@ -1,0 +1,12 @@
+    while (v) {
+      t = v->link;
+      v->link = *w;
+      *w = v;
+      v = t;
+      if (v) {
+        t = v->link;
+        v->link = *w;
+        *w = v;
+        v = t;
+      }
+    }

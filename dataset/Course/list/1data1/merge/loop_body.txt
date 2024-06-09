@@ -1,0 +1,13 @@
+    while (y) {
+        t = y -> tail;
+        y -> tail = x -> tail;
+        x -> tail = y;
+        if (y -> tail == 0) {
+          y -> tail = t;
+          return z;
+        }
+        else {
+          x = y -> tail;
+          y = t;
+        }
+      }

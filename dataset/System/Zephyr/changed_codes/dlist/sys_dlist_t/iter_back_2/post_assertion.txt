@@ -1,0 +1,1 @@
+*front == front_node && *end == end_node && dlseg(__return, 0, end_node, 0)

@@ -1,0 +1,36 @@
+    while (u) {
+        if (y) {
+          t -> pstNext = y;
+          y -> pstPrev = t;
+          t = y;
+          u -> pstPrev = t;
+          y = y -> pstNext;
+          if (y) {
+            y -> pstPrev = 0;
+          }    
+        }
+        else {
+          u = merge(u , z);
+          t -> pstNext = u;
+          return x;   
+        }
+        if (z) {
+          t -> pstNext = z;
+          z -> pstPrev = t;
+          t = z;
+          u -> pstPrev = t;
+          z = z -> pstNext;
+          if (z) {
+            z -> pstPrev = 0;
+          }
+        }
+        else {
+          u = merge(u , y);
+          t -> pstNext = u;
+          return x;
+        }
+        t -> pstNext = u;
+        u -> pstPrev = t;
+        t = u;
+        u = u -> pstNext;
+      }

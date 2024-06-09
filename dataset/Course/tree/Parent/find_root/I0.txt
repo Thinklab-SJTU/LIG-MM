@@ -1,0 +1,1 @@
+exists __1, x != 0 && tree_rep(x, __1) * ptree_rep(x, __1, root, 0)

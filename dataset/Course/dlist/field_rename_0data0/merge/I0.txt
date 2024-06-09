@@ -1,0 +1,1 @@
+y == t && x != 0 && z == x && dlistrep(x, 0) * dlistrep(y, 0)

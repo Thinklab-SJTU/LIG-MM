@@ -1,0 +1,4 @@
+struct sys_dnode_t *;
+struct sys_dnode_t *l;
+struct sys_dnode_t *p;
+struct sys_dnode_t *head;

@@ -1,0 +1,5 @@
+struct dist *;
+struct LOS_DL_LIST *x;
+struct LOS_DL_LIST *y;
+struct LOS_DL_LIST *z;
+struct LOS_DL_LIST *t;

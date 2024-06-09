@@ -1,0 +1,10 @@
+struct list *;
+struct list *p;
+struct list **w;
+struct list *t;
+struct list *v;
+struct list *q;
+struct list *x;
+struct list *y;
+struct list *u;
+struct list * * px;

@@ -1,0 +1,5 @@
+struct dist *;
+struct sys_dnode_t *x;
+struct sys_dnode_t *y;
+struct sys_dnode_t *z;
+struct sys_dnode_t *t;

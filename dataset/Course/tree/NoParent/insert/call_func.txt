@@ -1,0 +1,6 @@
+struct NFtree * malloc_NFtree(void)
+/*@ Require emp
+    Ensure __return -> left == 0 && 
+           __return -> right == 0 && 
+           __return -> data == 0 && emp
+ */;

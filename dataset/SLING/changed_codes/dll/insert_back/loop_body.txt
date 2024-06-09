@@ -1,0 +1,8 @@
+    while (p) {
+      if (p->next == 0) {
+        p->next = malloc_DLNode(data);
+        p->next->prev = p;
+        p = p -> next;
+      }
+      p = p->next;
+    }

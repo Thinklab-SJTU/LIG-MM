@@ -1,0 +1,8 @@
+struct LOS_DL_LIST *;
+struct LOS_DL_LIST *p;
+struct LOS_DL_LIST *w;
+struct LOS_DL_LIST *t;
+struct LOS_DL_LIST *v;
+struct LOS_DL_LIST *q;
+struct LOS_DL_LIST *x;
+struct LOS_DL_LIST *y;

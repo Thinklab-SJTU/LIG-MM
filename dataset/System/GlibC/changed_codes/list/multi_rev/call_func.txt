@@ -1,0 +1,5 @@
+struct list_t * append(struct list_t * x, struct list_t * y)
+/*@ With x_prev
+	Require dlistrep(x, x_prev) * dlistrep(y,0)
+  Ensure dlistrep(__return,x_prev)
+ */;

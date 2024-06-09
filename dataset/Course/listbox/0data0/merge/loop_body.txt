@@ -1,0 +1,15 @@
+    while (y) {
+        t = y -> tail;
+        y -> tail = (*z) -> tail;
+        (*z) -> tail = y;
+        if (y -> tail == 0) {
+          y -> tail = t;
+          x = *px;
+          free_list(px);
+          return x;
+        }
+        else {
+          z = &(y -> tail);
+          y = t;
+        }
+      }

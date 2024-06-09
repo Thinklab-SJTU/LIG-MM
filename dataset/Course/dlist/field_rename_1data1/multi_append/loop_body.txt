@@ -1,0 +1,20 @@
+          while (u) {
+            if (y) {
+              t -> link2 = y;
+              y -> link1 = t;
+              t = y;
+              y = y -> link2;
+              t -> link2 = u;
+              u -> link1 = t;
+              if (y) {
+                y -> link1 = 0;
+              }
+              t = u;
+              u = u -> link2;
+            }
+            else {
+              u = append(u , z);
+              t -> link2 = u;
+              return x;   
+            }
+        }

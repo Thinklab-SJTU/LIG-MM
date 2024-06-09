@@ -1,0 +1,1 @@
+exists v, x -> head == v && px == t && x -> tail == u && *t == x && listrep(y) * listrep(z) * listrep(u)

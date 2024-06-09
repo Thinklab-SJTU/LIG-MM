@@ -1,0 +1,7 @@
+struct DLNode* malloc_DLNode(int data)
+/*@ With data0 
+    Require data == data0 && emp
+    Ensure data_at(field_addr(__return, head), data0) * 
+           data_at(field_addr(__return, next), 0) *
+           data_at(field_addr(__return, prev), 0) 
+*/;

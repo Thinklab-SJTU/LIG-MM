@@ -1,0 +1,4 @@
+struct dlist *reverse(struct dlist *p)
+/*@ Require dlistrep(p, 0)
+    Ensure  dlistrep(__return, 0)
+*/;

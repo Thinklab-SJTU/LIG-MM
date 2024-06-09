@@ -1,0 +1,12 @@
+    while (v) {
+      t = v->next;
+      v->next = w;
+      w = v;
+      v = t;
+      if (v) {
+        t = v->next;
+        v->next = w;
+        w = v;
+        v = t;
+      }
+    }

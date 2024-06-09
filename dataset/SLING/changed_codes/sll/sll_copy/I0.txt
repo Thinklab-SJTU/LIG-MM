@@ -1,0 +1,1 @@
+t -> tail == 0 && t -> head == 0 && y == t && x == p && listrep(x)

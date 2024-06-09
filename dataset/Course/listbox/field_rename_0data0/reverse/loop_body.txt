@@ -1,0 +1,6 @@
+while (v) {
+    t = v->link;
+    v->link = *w;
+    *w = v;
+    v = t;
+  }

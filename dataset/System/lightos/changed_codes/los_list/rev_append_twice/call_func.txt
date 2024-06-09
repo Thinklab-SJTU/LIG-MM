@@ -1,0 +1,4 @@
+struct LOS_DL_LIST *reverse(struct LOS_DL_LIST *p)
+/*@ Require dlistrep(p, 0)
+    Ensure  dlistrep(__return, 0)
+*/;

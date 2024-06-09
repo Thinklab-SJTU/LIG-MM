@@ -1,0 +1,5 @@
+struct llist_node *;
+struct llist_node *x;
+struct llist_node *y;
+struct llist_node *z;
+struct llist_node *t;

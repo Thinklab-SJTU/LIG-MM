@@ -1,0 +1,7 @@
+void free_DLNode(struct DLNode *l)
+/*@ With v n p
+    Require data_at(field_addr(l, head), v) * 
+            data_at(field_addr(l, next), n) *
+            data_at(field_addr(l, prev), p)
+    Ensure emp
+*/;

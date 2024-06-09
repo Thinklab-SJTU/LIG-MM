@@ -1,0 +1,9 @@
+struct sys_slist_t *reverse(struct sys_slist_t *p)
+/*@ Require listrep(p)
+    Ensure  listrep(__return)
+ */;
+
+struct sys_slist_t *append(struct sys_slist_t * x, struct sys_slist_t * y)
+/*@ Require listrep(x) * listrep(y)
+    Ensure  listrep(__return)
+ */;

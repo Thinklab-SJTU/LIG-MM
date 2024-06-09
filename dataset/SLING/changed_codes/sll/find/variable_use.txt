@@ -1,0 +1,4 @@
+int ;
+struct SNnode *x;
+struct SNnode *p;
+int data;

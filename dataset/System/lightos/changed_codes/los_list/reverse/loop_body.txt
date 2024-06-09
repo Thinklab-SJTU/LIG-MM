@@ -1,0 +1,7 @@
+    while (v) {
+        t = v->pstNext;
+        v->pstNext = w;
+        v->pstPrev = t;
+        w = v;
+        v = t;
+    }

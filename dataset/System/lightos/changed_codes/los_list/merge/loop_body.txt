@@ -1,0 +1,18 @@
+    while (y) {
+        t = y -> pstNext;
+        y -> pstNext = x -> pstNext;
+        y -> pstPrev = x;
+        x -> pstNext = y;
+        if (y -> pstNext == 0) {
+          y -> pstNext = t;
+          return z;
+        }
+        else {
+          x = y -> pstNext;
+          x -> pstPrev = y;
+          y = t;
+          if (t) {
+          	t -> pstPrev = 0;
+          }
+        }
+      }

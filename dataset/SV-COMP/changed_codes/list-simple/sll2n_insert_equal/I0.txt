@@ -1,0 +1,1 @@
+new_node == 0 && data == data0 && l == p && listrep(l)

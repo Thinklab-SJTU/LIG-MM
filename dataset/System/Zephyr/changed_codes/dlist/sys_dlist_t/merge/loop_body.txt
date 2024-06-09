@@ -1,0 +1,18 @@
+    while (y) {
+        t = y -> tail;
+        y -> tail = x -> tail;
+        y -> head = x;
+        x -> tail = y;
+        if (y -> tail == 0) {
+          y -> tail = t;
+          return z;
+        }
+        else {
+          x = y -> tail;
+          x -> head = y;
+          y = t;
+          if (t) {
+          	t -> head = 0;
+          }
+        }
+      }

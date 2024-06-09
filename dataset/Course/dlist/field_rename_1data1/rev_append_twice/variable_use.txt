@@ -1,0 +1,6 @@
+struct pred *;
+struct pred *p;
+struct pred *w;
+struct pred *t;
+struct pred *v;
+struct pred *q;

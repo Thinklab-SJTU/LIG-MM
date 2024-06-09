@@ -1,0 +1,12 @@
+    while (v) {
+      t = v->tail;
+      v->tail = w;
+      w = v;
+      v = t;
+      if (v) {
+        t = v->tail;
+        v->tail = w;
+        w = v;
+        v = t;
+      }
+    }

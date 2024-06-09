@@ -1,0 +1,8 @@
+struct sys_slist_t *;
+struct sys_slist_t *p;
+struct sys_slist_t *w;
+struct sys_slist_t *t;
+struct sys_slist_t *v;
+struct sys_slist_t *q;
+struct sys_slist_t *x;
+struct sys_slist_t *y;

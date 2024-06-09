@@ -1,0 +1,9 @@
+    while (p) {
+    if (p-> head == data) {
+      new_node = malloc_SLL(data);
+      new_node->tail = p->tail;
+      p->tail = new_node;
+      return l;
+    }
+    p = p->tail;
+  }

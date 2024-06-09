@@ -1,0 +1,4 @@
+struct sys_dnode_t *reverse(struct sys_dnode_t *p)
+/*@ Require dlistrep(p, 0)
+    Ensure  dlistrep(__return, 0)
+*/;

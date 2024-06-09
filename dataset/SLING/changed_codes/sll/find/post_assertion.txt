@@ -1,0 +1,1 @@
+__return == 1 && listrep(x) || __return == -1 && listrep(x)

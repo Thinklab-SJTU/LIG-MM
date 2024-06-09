@@ -1,0 +1,5 @@
+struct sys_dlist_t *merge(struct sys_dlist_t *x , struct sys_dlist_t *y)
+/*@ With x_head 
+    Require dlistrep(x,x_head) * dlistrep(y,0)
+    Ensure  dlistrep(__return,x_head)
+ */;

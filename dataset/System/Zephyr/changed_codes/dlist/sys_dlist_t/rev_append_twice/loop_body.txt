@@ -1,0 +1,18 @@
+      while (v) {
+        t = v -> tail;
+        v-> tail = w;
+        w-> head = v; 
+        w = v;
+        v = t;
+        if (v) {
+          v -> head = 0;
+          t = v -> tail;
+          v-> tail = w;
+          w-> head = v; 
+          w = v;
+          v = t;
+          if (v) {
+            v -> head = 0;
+          }
+        }
+      }

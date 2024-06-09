@@ -1,0 +1,5 @@
+    while (l) {
+    p = l->tail;
+    free_SNnode(l);
+    l = p;
+  }

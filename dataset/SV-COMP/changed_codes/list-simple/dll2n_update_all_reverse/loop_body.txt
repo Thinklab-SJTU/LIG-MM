@@ -1,0 +1,10 @@
+    while (v) {
+    t = v->next;
+    v->next = w;
+    v->prev = t;
+    if (v->data != data) {
+      v -> data = data;
+    }
+    w = v;
+    v = t;
+  }

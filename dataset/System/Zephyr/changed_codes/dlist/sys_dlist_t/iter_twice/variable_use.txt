@@ -1,0 +1,3 @@
+struct sys_dlist_t *;
+struct sys_dlist_t *l;
+struct sys_dlist_t *p;

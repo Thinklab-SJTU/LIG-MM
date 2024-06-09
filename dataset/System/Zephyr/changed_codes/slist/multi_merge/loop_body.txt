@@ -1,0 +1,25 @@
+    while (u) {
+      if (y) {
+        t -> next = y;
+        t = y;
+        y = y -> next;
+      }
+      else {
+        u = merge(u , z);
+        t -> next = u;
+        return x;   
+      }
+      if (z) {
+        t -> next = z;
+        t = z;
+        z = z -> next;
+      }
+      else {
+        u = merge(u , y);
+        t -> next = u;
+        return x;
+      }
+      t -> next = u;
+      t = u;
+      u = u -> next;
+    }

@@ -1,0 +1,27 @@
+    while (u) {
+        if (y) {
+          (*t) -> link = y;
+          *t = y;
+          y = y -> link;
+        }
+        else {
+          u = merge(u , z);
+          (*t) -> link = u;
+          free_list(px);
+          return x;   
+        }
+        if (z) {
+          (*t) -> link = z;
+          *t = z;
+          z = z -> link;
+        }
+        else {
+          u = merge(u , y);
+          (*t) -> link = u;
+          free_list(px);
+          return x;
+        }
+        (*t) -> link = u;
+        *t = u;
+        u = u -> link;
+      }

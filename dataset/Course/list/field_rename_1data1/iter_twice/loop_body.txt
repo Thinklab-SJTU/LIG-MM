@@ -1,0 +1,6 @@
+    while (p) {
+        p = p->link;
+        if (p) {
+          p = p -> link;
+        }
+    }

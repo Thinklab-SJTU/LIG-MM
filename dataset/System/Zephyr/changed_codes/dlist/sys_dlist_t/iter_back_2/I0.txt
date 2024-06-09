@@ -1,0 +1,1 @@
+front_node != end_node && end_node != 0 && front_node != 0 && p == end_node && *front == front_node && *end == end_node && dlseg(front_node, 0, end_node, 0)

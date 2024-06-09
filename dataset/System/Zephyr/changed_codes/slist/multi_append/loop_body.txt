@@ -1,0 +1,15 @@
+    while (u) {
+      if (y) {
+        t -> next = y;
+        t = y;
+        y = y -> next;
+        t -> next = u;
+        t = u;
+        u = u -> next;
+      }
+      else {
+        u = append(u , z);
+        t -> next = u;
+        return x;   
+      }
+    }

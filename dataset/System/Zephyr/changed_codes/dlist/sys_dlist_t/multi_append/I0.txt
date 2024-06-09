@@ -1,0 +1,1 @@
+x == t && t->head == 0 && t->tail == u && dlistrep(y,0) * dlistrep(u,t) * dlistrep(z,0)

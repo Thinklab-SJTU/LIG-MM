@@ -1,0 +1,10 @@
+    while (v) {
+        t = v -> link2;
+        v-> link2 = w;
+        w-> link1 = v; 
+        w = v;
+        v = t;
+        if (v) {
+          v -> link1 = 0;
+        }
+      }

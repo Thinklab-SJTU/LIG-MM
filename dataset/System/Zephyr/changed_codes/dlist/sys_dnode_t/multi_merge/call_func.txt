@@ -1,0 +1,5 @@
+struct sys_dnode_t *merge(struct sys_dnode_t *x , struct sys_dnode_t *y)
+/*@ With x_prev 
+    Require dlistrep(x,x_prev) * dlistrep(y,0)
+    Ensure  dlistrep(__return,x_prev)
+ */;

@@ -1,0 +1,21 @@
+    while (1) {
+      if (v) {
+        t = v->tail;
+        v->tail = *w;
+        *w = v;
+        v = t;
+      }
+      else {
+        if (y) {
+          t = y->tail;
+          y->tail = x;
+          x = y;
+          y = t;
+        }
+        else { 
+          t = append(*w , x);
+          free_list(px);
+          return t;
+        }
+      }
+    }

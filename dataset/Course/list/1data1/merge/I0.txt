@@ -1,0 +1,1 @@
+y == t && x != 0 && z == x && listrep(x) * listrep(y)

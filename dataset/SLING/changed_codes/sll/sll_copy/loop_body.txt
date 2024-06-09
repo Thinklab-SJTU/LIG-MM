@@ -1,0 +1,6 @@
+    while (p) {
+      t -> head = p -> head;
+      t -> tail = malloc_SNnode(0);
+      p = p -> tail;
+      t = t -> tail;
+    }

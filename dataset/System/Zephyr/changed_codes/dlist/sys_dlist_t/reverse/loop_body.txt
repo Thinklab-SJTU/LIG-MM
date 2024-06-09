@@ -1,0 +1,7 @@
+    while (v) {
+        t = v->tail;
+        v->tail = w;
+        v->head = t;
+        w = v;
+        v = t;
+    }

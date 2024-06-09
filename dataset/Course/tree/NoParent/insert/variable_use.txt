@@ -1,0 +1,5 @@
+struct NFtree *;
+struct NFtree *x;
+int v;
+struct NFtree *y;
+struct NFtree *t;

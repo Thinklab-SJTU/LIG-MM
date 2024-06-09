@@ -1,0 +1,6 @@
+struct sys_dlist_t *;
+struct sys_dlist_t *x;
+struct sys_dlist_t *y;
+struct sys_dlist_t *z;
+struct sys_dlist_t *t;
+struct sys_dlist_t *u;

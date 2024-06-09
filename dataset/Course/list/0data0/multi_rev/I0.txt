@@ -1,0 +1,1 @@
+w == 0 && v == p && x == 0 && y == q && listrep(p) * listrep(q)

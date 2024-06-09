@@ -1,0 +1,1 @@
+*head == head_node && *tail == tail_node && dlseg(__return, 0, tail_node, 0)

@@ -1,0 +1,1 @@
+p != q && w == q && v == p && listrep(p) * listrep(q)

@@ -1,0 +1,17 @@
+struct list ** malloc_list(void)
+  /*@ Require emp
+      Ensure exists p, *__return == p && emp
+   */
+  ;
+
+void free_list(struct list * * p2)
+  /*@ With p
+      Require *p2 == p && emp
+      Ensure emp
+   */
+  ;
+
+struct list *append(struct list * x, struct list * y)
+/*@ Require listrep(x) * listrep(y)
+    Ensure  listrep(__return)
+ */;

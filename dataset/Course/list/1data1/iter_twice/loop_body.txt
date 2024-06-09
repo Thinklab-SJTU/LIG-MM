@@ -1,0 +1,6 @@
+    while (p) {
+        p = p->tail;
+        if (p) {
+          p = p -> tail;
+        }
+    }

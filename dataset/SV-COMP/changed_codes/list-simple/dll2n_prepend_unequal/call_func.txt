@@ -1,0 +1,22 @@
+struct DLL* malloc_DLL(int v)
+/*@ With v0 
+    Require v == v0 && emp
+    Ensure data_at(field_addr(__return, data), v0) * 
+           data_at(field_addr(__return, next), 0) *
+           data_at(field_addr(__return, prev), 0) 
+*/;
+
+void free_DLL(struct DLL *l)
+/*@ With v n p
+    Require data_at(field_addr(l, data), v) * 
+            data_at(field_addr(l, next), n) *
+            data_at(field_addr(l, prev), p)
+    Ensure emp
+*/;
+
+struct DLL * prepend(struct DLL *l, int v)
+/*@ With v0
+    Require v == v0 && dlistrep(l, 0)
+    Ensure  dlistrep(__return, 0)
+ */
+;

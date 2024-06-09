@@ -1,0 +1,7 @@
+    while (p) {
+      if (p->tail == 0) {
+        p -> tail = malloc_SNnode(data);
+        p = p -> tail;
+      }
+      p = p -> tail;
+    }

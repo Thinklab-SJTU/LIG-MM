@@ -1,0 +1,5 @@
+struct dlist *;
+struct dlist *x;
+struct dlist *y;
+struct dlist *t;
+struct dlist *u;

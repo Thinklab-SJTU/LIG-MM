@@ -1,0 +1,5 @@
+    while (l) {
+    p = l->tail;
+    free_SLL(l);
+    l = p;
+  }

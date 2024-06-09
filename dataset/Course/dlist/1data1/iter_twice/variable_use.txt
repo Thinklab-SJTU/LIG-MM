@@ -1,0 +1,3 @@
+struct dlist *;
+struct dlist *l;
+struct dlist *p;

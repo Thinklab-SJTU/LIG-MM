@@ -1,0 +1,21 @@
+struct NFtree {
+    int data;
+    struct NFtree * left;
+    struct NFtree * right;
+};
+
+/*@
+  Let NFtree_rep(p) = p == 0 && emp ||
+  	exists p_data, p -> data == p_data && 
+                   NFtree_rep(p -> left) * NFtree_rep(p -> right)
+ */
+
+/*@
+  Let NFptree_rep(p, p_root) = p == p_root && emp ||
+  	exists p_par ppar_data, 
+              p_par -> left == p && p_par -> data == ppar_data && 
+              NFtree_rep(p_par -> right) * NFptree_rep(p_par, p_root) ||
+    exists p_par ppar_data,
+              p_par -> right == p && p_par -> data == ppar_data && 
+              NFtree_rep(p_par -> left) * NFptree_rep(p_par, p_root)  
+*/

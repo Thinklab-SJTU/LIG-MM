@@ -1,0 +1,20 @@
+    while (1) {
+      if (v) {
+        t = v->next;
+        v->next = w;
+        w = v;
+        v = t;
+      }
+      else {
+        if (y) {
+          t = y->next;
+          y->next = x;
+          x = y;
+          y = t;
+        }
+        else {       
+          t = append(w , x);
+          return t;
+        }
+      }
+    }

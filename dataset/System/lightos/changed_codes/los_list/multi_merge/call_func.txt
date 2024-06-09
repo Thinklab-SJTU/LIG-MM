@@ -1,0 +1,5 @@
+struct LOS_DL_LIST *merge(struct LOS_DL_LIST *x , struct LOS_DL_LIST *y)
+/*@ With x_prev 
+    Require dlistrep(x,x_prev) * dlistrep(y,0)
+    Ensure  dlistrep(__return,x_prev)
+ */;

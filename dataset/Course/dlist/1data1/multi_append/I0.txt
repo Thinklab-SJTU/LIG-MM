@@ -1,0 +1,1 @@
+exists v, x == t && t->head == v && t->prev == 0 && t->next == u && dlistrep(y,0) * dlistrep(u,t) * dlistrep(z,0)

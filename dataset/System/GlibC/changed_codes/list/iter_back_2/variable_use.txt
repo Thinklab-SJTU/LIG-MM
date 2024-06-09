@@ -1,0 +1,4 @@
+struct list_t *;
+struct list_t *p;
+struct list_t **head;
+struct list_t **tail;

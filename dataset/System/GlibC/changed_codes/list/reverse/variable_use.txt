@@ -1,0 +1,5 @@
+struct list_t *;
+struct list_t *p;
+struct list_t *w;
+struct list_t *t;
+struct list_t *v;

@@ -1,0 +1,1 @@
+x != 0 && v == v0 && y == x && NFtree_rep(x)

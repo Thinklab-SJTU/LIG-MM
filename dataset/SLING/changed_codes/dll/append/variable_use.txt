@@ -1,0 +1,5 @@
+struct DLNode *;
+struct DLNode *x;
+struct DLNode *y;
+struct DLNode *t;
+struct DLNode *u;

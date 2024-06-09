@@ -1,0 +1,1 @@
+head_node != tail_node && tail_node != 0 && head_node != 0 && p == tail_node && *head == head_node && *tail == tail_node && dlseg(head_node, 0, tail_node, 0)

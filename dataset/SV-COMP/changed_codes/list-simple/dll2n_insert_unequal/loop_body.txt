@@ -1,0 +1,17 @@
+    while (p) {
+    if (p->data == v) {
+      new_node = malloc_DLL(v);
+      new_node->next = p->next;
+      new_node->prev = p->prev;
+      if (p -> prev) {
+        p->prev->next = new_node;
+      }
+      if (p -> next) {
+        p->next->prev = new_node;
+      }
+      free_DLL(p);
+      p = new_node;
+      new_node = 0;
+    }
+    p = p->next;
+  }

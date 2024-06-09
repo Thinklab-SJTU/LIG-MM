@@ -1,0 +1,22 @@
+    while (1) {
+      if (v) {
+        t = v->tail;
+        v->tail = w;
+        v->head = t;
+        w = v;
+        v = t;
+      }
+      else {
+        if (y) {
+          t = y->tail;
+          y->tail = x;
+          y->head = t;
+          x = y;
+          y = t;
+        }
+        else { 
+          t = append(w , x);
+          return t;
+        }
+      }
+    }

@@ -1,0 +1,1 @@
+w == 0 && v == p && x == 0 && y == q && dlistrep(p,0) * dlistrep(q,0)

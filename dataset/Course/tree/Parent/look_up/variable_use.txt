@@ -1,0 +1,5 @@
+struct tree *;
+struct tree *x;
+int v;
+struct tree *y;
+struct tree *t;

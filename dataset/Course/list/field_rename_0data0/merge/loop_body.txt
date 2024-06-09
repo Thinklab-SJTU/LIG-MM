@@ -1,0 +1,13 @@
+    while (y) {
+        t = y -> link;
+        y -> link = x -> link;
+        x -> link = y;
+        if (y -> link == 0) {
+          y -> link = t;
+          return z;
+        }
+        else {
+          x = y -> link;
+          y = t;
+        }
+      }

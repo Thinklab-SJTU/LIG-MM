@@ -1,0 +1,5 @@
+struct dist *;
+struct pred *x;
+struct pred *y;
+struct pred *z;
+struct pred *t;

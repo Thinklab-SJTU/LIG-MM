@@ -1,0 +1,36 @@
+    while (u) {
+        if (y) {
+          t -> link2 = y;
+          y -> link1 = t;
+          t = y;
+          u -> link1 = t;
+          y = y -> link2;
+          if (y) {
+            y -> link1 = 0;
+          }    
+        }
+        else {
+          u = merge(u , z);
+          t -> link2 = u;
+          return x;   
+        }
+        if (z) {
+          t -> link2 = z;
+          z -> link1 = t;
+          t = z;
+          u -> link1 = t;
+          z = z -> link2;
+          if (z) {
+            z -> link1 = 0;
+          }
+        }
+        else {
+          u = merge(u , y);
+          t -> link2 = u;
+          return x;
+        }
+        t -> link2 = u;
+        u -> link1 = t;
+        t = u;
+        u = u -> link2;
+      }

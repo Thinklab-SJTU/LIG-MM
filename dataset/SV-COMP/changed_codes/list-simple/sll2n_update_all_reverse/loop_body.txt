@@ -1,0 +1,9 @@
+    while (v) {
+    t = v->tail;
+    v->tail = w;
+    if (v-> head != data) {
+      v -> head = data;
+    }
+    w = v;
+    v = t;
+  }

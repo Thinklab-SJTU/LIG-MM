@@ -1,0 +1,16 @@
+while (u) {
+    if (y) {
+      (*t) -> tail = y;
+      *t = y;
+      y = y -> tail;
+      (*t) -> tail = u;
+      *t = u;
+      u = u -> tail;
+    }
+    else {
+      u = append(u , z);
+      (*t) -> tail = u;
+      free_list(px);
+      return x;   
+    }
+}

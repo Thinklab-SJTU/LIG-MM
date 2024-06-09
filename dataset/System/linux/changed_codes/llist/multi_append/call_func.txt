@@ -1,0 +1,4 @@
+struct llist_node * append(struct llist_node * x, struct llist_node * y)
+/*@ Require listrep(x) * listrep(y)
+    Ensure  listrep(__return)
+ */;

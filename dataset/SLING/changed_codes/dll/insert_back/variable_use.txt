@@ -1,0 +1,4 @@
+struct DLNode *;
+struct DLNode *x;
+struct DLNode *p;
+int data;

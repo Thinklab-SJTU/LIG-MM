@@ -1,0 +1,6 @@
+    while (p) {
+      if (p->data == data) {
+        return l;
+      }
+      p = p->next;
+    }
