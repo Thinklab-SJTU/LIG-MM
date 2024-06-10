@@ -1,0 +1,77 @@
+struct list {
+    struct list *tail;
+};
+
+$
+
+/*@ Let listrep(l) = l == 0 && emp ||
+      exists t, data_at(field_addr(l, tail), t) * listrep(t)
+ */
+
+$
+
+/*@ Let lseg(x, y) = x == y && emp ||
+      exists z, data_at(field_addr(x, tail), z) * lseg(z, y)
+ */
+
+$
+
+struct list * Invgen(struct list *,struct list *,struct list *,struct list *);
+
+$
+
+struct list * x;
+
+$
+
+struct list * y;
+
+$
+
+struct list * t;
+
+$
+
+struct list * u;
+
+$
+
+struct list * __return;
+
+$
+
+/*@
+		Require (*t).tail==u&&x!=0&&lseg(x,t)*listrep(y)*listrep(u)
+		Ensure listrep(__return)
+*/
+
+$
+
+{
+
+$
+
+while (u)
+
+$
+
+{
+
+$
+
+t = u;
+
+$
+
+u = t -> tail;
+
+$
+
+}
+
+$
+
+}
+
+$
+

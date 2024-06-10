@@ -1,0 +1,23 @@
+struct list {
+    int head;
+    struct list *tail;
+};
+
+/*@ Let listrep(l) = l == 0 && emp ||
+      exists t, data_at(field_addr(l, tail), t) * listrep(t)
+ */
+
+struct list *reverse(struct list *p, struct list *w, struct list *v, struct list *t)
+/*@ Require w == 0 && v == p && listrep(p)
+    Ensure  listrep(__return)
+ */
+{
+    /*@ w == 0 && v == p && listrep(p) */
+    while (v) {
+        t = v->tail;
+        v->tail = w;
+        w = v;
+        v = t;
+    }
+    return w;
+}
