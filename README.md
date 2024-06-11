@@ -66,5 +66,5 @@ python invgen.py --path Course/list/0data0/append --log_method time
 
 We can find the log file in this directory: `/log/Course/list/0data0/append/<time>.log`.
 
-The model after fine-tuned can be downloaded from [here](https://mega.nz/file/kltjnIoa#QkAQLu7UERPk4Xgb-Rer4U7lfKy7P3rdQeY_p-b8nhM).
+The model after fine-tuned can be downloaded from [here](https://mega.nz/file/M9FEWCjD#QkAQLu7UERPk4Xgb-Rer4U7lfKy7P3rdQeY_p-b8nhM).
 
