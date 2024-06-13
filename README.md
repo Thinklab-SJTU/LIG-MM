@@ -36,6 +36,22 @@ By integrating these varied sources, LIG-MM captures a broad spectrum of program
 ## Source Code of LLM-SE Framework
 The source code of the proposed LLM-SE framework is under the `src` folder.
 
+### Installation
+
+- Environment (tested on)
+  - numpy==1.21.6
+  - requests==2.31.0
+  - scipy==1.7.3
+  - torch==1.13.1+cu117
+  - torchvision==0.14.1+cu117
+  - torchaudio==0.13.1
+  - transformers==4.30.2
+  - pandas==1.3.5
+  - datasets==2.13.1
+  - evaluate==0.4.0
+  - z3-solver==4.12.2.0
+  - wandb==0.15.8
+
 ### Test an Example
 
 ```bash
