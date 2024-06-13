@@ -5,8 +5,6 @@ which is submitted to the thirty-eight conference on neural information processi
 ## Benchmark Dataset LIG-MM
 The benchmark dataset proposed in our paper is under the `dataset` folder.
 
-Here's the given text converted to Markdown format:
-
 ---
 
 As we mentioned before, the benchmark programs in existing papers mostly contain numerical programs. To fill the lack of benchmarks for general loop invariant generation, we propose LIG-MM, a loop invariant generation benchmark of memory manipulation programs. Table 1 below shows the basics of the code in LIG-MM. Our programs come from four main sources: course codes, competition codes, previous relevant work, and actual system codes. The programs are modified into a unified format for better usage. Multiple examples, license of datasets and maintenance plans can be found in the supplementary materials.
