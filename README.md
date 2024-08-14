@@ -82,3 +82,29 @@ We can find the log file in this directory: `/log/Course/list/0data0/append/<tim
 
 The model after fine-tuned can be downloaded from [here](https://mega.nz/file/M9FEWCjD#QkAQLu7UERPk4Xgb-Rer4U7lfKy7P3rdQeY_p-b8nhM).
 
+The organization of the dataset is as follows:
+ ```
+    datasets
+    ├── Course (course programs)
+    │   ├── list
+    │   ├── dlist
+    │   ├── listbox
+    │   ├── tree
+    │   ├── hash_table
+    │   └── README.md
+    ├── SLING (previous benchmark)
+    │   ├── original_codes
+    │   ├── changed_codes
+    │   └── README.md
+    ├── SV-COMP (competition programs)
+    │   ├── original_codes
+    │   ├── changed_codes
+    │   └── README.md
+    └── System (real-world system programs)
+        ├── Linux
+        ├── GlibC
+        ├── LiteOS
+        ├── Zephyr
+        └── README.md
+```
+
